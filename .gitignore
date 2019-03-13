@@ -1,0 +1,5 @@
+.idea
+node_modules
+config.json
+output.json
+.legacy.git

@@ -1,0 +1,23 @@
+{
+  "intervalInMinutes": 5,
+  "rotateLogsAfterSets": 500,
+  "sites": [
+    {
+      "title": "Google",
+      "targets": [
+        {
+          "title": "Google's front page works",
+          "url": "https://www.google.com/",
+          "statusShouldBe": 200,
+          "see": "<!doctype html>"
+        },
+        {
+          "title": "Google returns a proper 404",
+          "url": "http://google.com/this-url-does-not-exist",
+          "statusShouldBe": 404,
+          "see": "Error 404 (Not Found)!!1"
+        }
+      ]
+    }
+  ]
+}
