@@ -7,13 +7,14 @@
 ## Install
 `git clone https://github.com/ThePaavero/very-basic-monitor.git`
 
+`cd very-basic-monitor`
+
 `npm i`
 
 ## Configure
 `cp config.example.json config.json`
 
-Edit your config.
+Edit your new config JSON to reflect your needs.
 
 ## Run
 `node index.js` 
-
